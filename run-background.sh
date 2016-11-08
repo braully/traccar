@@ -1,0 +1,2 @@
+#!/bin/bash
+nohup mvn -f pom.xml "-Dexec.args=-classpath %classpath org.traccar.Main traccar-prod.cfg.xml" -Dexec.executable=java -DskipTests=true --errors --errors org.codehaus.mojo:exec-maven-plugin:1.2.1:exec &

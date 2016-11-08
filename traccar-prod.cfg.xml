@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE properties SYSTEM 'http://java.sun.com/dtd/properties.dtd'>
+<properties>
+    <entry key="config.default">./setup/default.xml</entry>
+    <entry key='web.path'>./traccar-web/web</entry>
+    <entry key='web.debug'>true</entry>
+    <entry key='web.console'>true</entry>
+    <entry key='geocoder.enable'>false</entry>
+    <entry key='logger.file'>target/tracker-server.log</entry>
+    <entry key='intellitrac.port'>6037</entry>
+    
+    <entry key='database.registerUnknown'>true</entry>    
+
+    <!-- DATABASE CONFIG -->
+    <entry key='database.driver'>org.postgresql.Driver</entry>
+    <entry key='database.url'>jdbc:postgresql://maxge-principal/gps</entry>
+    <entry key='database.user'>userGps</entry>
+    <entry key='database.password'>13a6f2534b2f46d66f1387ad1e43e70f</entry>
+    
+</properties>
